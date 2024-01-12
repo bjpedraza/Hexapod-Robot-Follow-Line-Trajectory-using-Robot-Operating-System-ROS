@@ -48,10 +48,12 @@ def listener():
 
 if __name__ == '__main__'():
 
+	rate = rospy.Rate(10) # 10hz
 	listener()
 	try:
 		while not rospy.is_shutdown():
-        		rospy.sleep(rospy.Duration(nsecs=1000)) # gives time to process msg
+        		#rospy.sleep(rospy.Duration(nsecs=1000))
+			rate.sleep()
         		walk()
         except rospy.ROSInterruptException:
 		print("shutdown")
