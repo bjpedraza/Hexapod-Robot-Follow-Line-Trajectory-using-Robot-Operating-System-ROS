@@ -25,4 +25,3 @@ MATLAB and Simulink
 Kinematics and Inverse Kinematics for angels and x, y, and z coordinates
 
 Gait Transition
-
