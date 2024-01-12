@@ -29,7 +29,7 @@ def walk():
 	else:
 		print("step out of bound")
 
-	if step == 5 or myMsg == '' : # Special case where step is 5 or empty msg the robot stands still
+	if step == 5 or myMsg == '' : # Special case where step is 5 or empty msg, the robot stands still
 		rf.stand()
 	else:
 		rf.move(step, 35, turn_command)
