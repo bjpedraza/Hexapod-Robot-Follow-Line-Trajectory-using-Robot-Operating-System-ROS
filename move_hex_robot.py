@@ -16,24 +16,24 @@ def callback(data):
         myMsg = data.data
         
         if step == 1:
-			turn_command = myMsg
-		elif step == 2:
-			turn_command = myMsg
-		elif step == 3:
-			turn_command = myMsg
-		elif step == 4:
-			#rf.leftSide_direction  = 0
-			#rf.rightSide_direction = 1
-			turn_command = myMsg
-		elif step == 5:
-			stand()
-		
-		rf.move(step, 35, turn_command)
-		
-		step += 1
-		if step > 4:
-			step = 1
-		time.sleep(0.08)
+	        turn_command = myMsg
+	elif step == 2:
+		turn_command = myMsg
+	elif step == 3:
+		turn_command = myMsg
+	elif step == 4:
+		#rf.leftSide_direction  = 0
+		#rf.rightSide_direction = 1
+		turn_command = myMsg
+	elif step == 5:
+		stand()
+	
+	rf.move(step, 35, turn_command)
+	
+	step += 1
+	if step > 4:
+		step = 1
+	time.sleep(0.08)
 
 
 def listener():
@@ -48,16 +48,10 @@ def listener():
 
 
 if __name__ == '__main__':
-
-	move_stu = 1
 	try:
-
 		while 1:
-            
 			#Subscriber:
 			listener()
-
-
 
 		'''
 		while 1:
