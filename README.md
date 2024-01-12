@@ -1,6 +1,11 @@
 # Hexapod Robot: Follow Line Trajectory using Robot Operating System (ROS)
 Hexapod robot that follows black line using OpenCV and Hough Line Transformation
 
+
+## Journal Article IEEE Format
+To read more about this project in further detail the Hexapod_Robot__Follow_Line_Trajectory_using_Robot_Operating_System__ROS.pdf is also available on this repository.
+
+
 ## Robot and Componets
 The robot that was built and used was the Adeept hexapod robot.
 The hardware used for this robot was a Raspberry Pi 3. 
