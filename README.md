@@ -28,7 +28,7 @@ Hough Line Transformation Algorithm
 
 Raspberry Pi GPIO Ports
 
-Proportional-Integral-Derivative controller (PID)
+Proportional Integral Derivative controller (PID)
 
 Pulse-Width Modulation (PWM)
 
