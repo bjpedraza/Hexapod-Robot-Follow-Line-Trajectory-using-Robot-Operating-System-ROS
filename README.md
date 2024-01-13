@@ -18,7 +18,7 @@ In total, fourteen servos were used to control the robot, two for each leg and a
 ## Software and Components
 Linux OS
 
-Robot Operating System (ROS)
+Robot Operating System (ROS) Melodic
 
 Python
 
