@@ -3,7 +3,7 @@ Hexapod robot that follows black line using OpenCV and Hough Line Transformation
 
 
 ## Journal IEEE Format
-To read more about this project in further detail the Hexapod_Robot__Follow_Line_Trajectory_using_Robot_Operating_System__ROS.pdf is also available on this repository.
+To read more about this project in further detail the [Hexapod_Robot__Follow_Line_Trajectory_using_Robot_Operating_System__ROS](https://github.com/bjpedraza/Hexapod-Robot-Follow-Line-Trajectory-using-Robot-Operating-System-ROS/blob/main/Hexapod_Robot__Follow_Line_Trajectory_using_Robot_Operating_System__ROS.pdf).
 
 
 ## Robot and Hardware
