@@ -24,8 +24,6 @@ Python
 
 OpenCV
 
-Cv_bridge that bridges between ROS messages and OpenCV
-
 Hough Line Transformation Algorithm
 
 Raspberry Pi GPIO Ports
